@@ -3,9 +3,9 @@ from telethon.tl.types import InputPeerSelf
 import difflib
 from asyncio import sleep
 
-api_id = '23201402'
-api_hash = 'ead5b4b88512c567e0ae55b617e81d0a'
-phone_number = '+989154153732'
+api_id = ''
+api_hash = ''
+phone_number = ''
 CLICK_INTERVAL = 3 * 60 * 60
 
 from datetime import datetime  
