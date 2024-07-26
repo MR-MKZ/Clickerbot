@@ -60,6 +60,7 @@ async def main():
     target_text = '🎁 المكافأة اليومية'  # The text on the button you want to click
     
     while True:
+        await sleep(10) # because of some unhandled delays
         await click_keyboard_button(chat, target_text)
         await sleep(CLICK_INTERVAL)
     
